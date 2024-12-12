@@ -1,0 +1,41 @@
+2024-12-12 10:58:38,127 - INFO - Initializing Dataproc with config: DatasetConfig(file_path='Dataset\\Stock\\IHSG_Stock_Clean.csv', file_path_sentiment=None, split_ratio=0.8, n_in=10, n_out=1, sentiment_scenario=5, drop_columns=True, drop_columns_list=['Change%', 'Volume'], start_date='2014-01-03', end_date='2024-08-06')
+2024-12-12 10:58:38,129 - INFO - Reading dataset from: Dataset\Stock\IHSG_Stock_Clean.csv
+2024-12-12 10:58:38,160 - INFO - Dropped columns: ['Change%', 'Volume']
+2024-12-12 10:58:38,164 - INFO - Dataset read successfully with shape: (2579, 4)
+2024-12-12 10:58:38,165 - INFO - config is None or self.config.file_path_sentiment is None. Returning None
+2024-12-12 10:58:38,165 - INFO - Split lengths calculated: train_length=2063, val_length=516
+2024-12-12 10:58:38,165 - INFO - Creating supervised data
+2024-12-12 10:58:38,169 - INFO - Supervised data created with shape: (2569, 44)
+2024-12-12 10:58:38,171 - INFO - Splitting data into train and validation sets
+2024-12-12 10:58:38,172 - INFO - Data split complete: X_train shape=(2063, 40), X_val shape=(506, 40)
+2024-12-12 10:58:38,173 - INFO - Scaling data
+2024-12-12 10:58:38,178 - INFO - Transposing scaled data
+2024-12-12 10:58:38,180 - INFO - Data transposition complete
+2024-12-12 10:58:38,180 - INFO - Data scaling complete
+2024-12-12 10:58:38,180 - INFO - Calculating returns
+2024-12-12 10:58:38,182 - INFO - Returns calculation complete
+2024-12-12 10:58:38,182 - INFO - Getting scaled data
+2024-12-12 10:58:38,182 - INFO - Getting scaled data
+2024-12-12 10:58:38,182 - INFO - Model parameters set to: {'n_estimators': 3000, 'max_depth': 7, 'min_child_weight': 2, 'learning_rate': 0.48}
+2024-12-12 10:58:38,182 - INFO - ModelXGBoost initialized with params: {'n_estimators': 3000, 'max_depth': 7, 'min_child_weight': 2, 'learning_rate': 0.48}
+2024-12-12 10:58:38,182 - INFO - Creating model with use_returns=True and return_type='log'
+2024-12-12 10:58:38,182 - INFO - Getting data split
+2024-12-12 10:58:38,183 - INFO - Getting scaled data
+2024-12-12 10:58:38,183 - INFO - Setting return data with return_type='log'
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Getting returns data
+2024-12-12 10:58:38,183 - INFO - Return data set successfully for training and validation
+2024-12-12 10:58:39,733 - INFO - Model training complete
+2024-12-12 10:58:39,733 - INFO - Evaluating model
+2024-12-12 10:58:39,745 - INFO - Evaluation complete: ModelEvaluation(rmse=0.009406699987226517, mae=0.007348219893035093)
+2024-12-12 10:58:39,746 - INFO - Showing summary for target: returns
+2024-12-12 10:58:39,748 - INFO - Evaluating model
+2024-12-12 10:58:39,759 - INFO - Evaluation complete: ModelEvaluation(rmse=0.009406699987226517, mae=0.007348219893035093)
+2024-12-12 10:58:39,769 - INFO - Plotting predictions
+2024-12-12 10:58:39,781 - INFO - Getting data split
+2024-12-12 10:58:40,048 - INFO - Getting data split
+2024-12-12 10:58:49,098 - INFO - Evaluation saved to Dataset\Evaluation\Xgboost\evaluation.csv
