@@ -1,62 +1,60 @@
 # Stock-IHSG-Forecast-with-XGBoost-with-Sentiment-Analysis
 
-Proyek ini merupakan bagian dari tugas akhir saya sebagai mahasiswa Data Science. Proyek ini berfokus pada peramalan Indeks Harga Saham Gabungan (IHSG) menggunakan algoritma *Extreme Gradient Boosting* (XGBoost) yang dikombinasikan dengan analisis sentimen berita finansial.
+This project is part of my final assignment as a Data Science student at Telkom University. This project focuses on forecasting the Indonesian Stock Exchange Index (IHSG) using the *Extreme Gradient Boosting* (XGBoost) algorithm combined with sentiment analysis of financial news.
 
-## Deskripsi Proyek
+## Project Description
 
-IHSG adalah indikator utama pasar saham di Indonesia. Peramalan pergerakan IHSG menjadi tantangan menarik karena dipengaruhi oleh banyak faktor, termasuk data historis dan sentimen pasar yang dipengaruhi oleh berita.
+IHSG is the main indicator of the stock market in Indonesia. Forecasting the movement of IHSG is an interesting challenge because it is influenced by many factors, including historical data and market sentiment driven by news.
 
-Tujuan utama dari proyek ini adalah:
+The main objectives of this project are:
 
-1. Membuat model prediksi IHSG menggunakan XGBoost.
-2. Melakukan analisis sentimen terhadap berita finansial sebagai salah satu fitur input untuk model prediksi.
-3. Mengintegrasikan data sentimen dan data historis untuk meningkatkan akurasi prediksi IHSG.
+1. Create an IHSG prediction model using XGBoost.
+2. Perform sentiment analysis on financial news as one of the input features for the prediction model.
+3. Integrate sentiment data and historical data to improve the prediction accuracy of IHSG.
 
 ## Dataset
 
-Proyek ini menggunakan dua jenis dataset:
+This project uses two types of datasets:
 
-1. **Data Historis IHSG**: Data ini mencakup harga penutupan, volume perdagangan, dan data teknikal lainnya yang diambil dari sumber terpercaya seperti Yahoo Finance atau IDX.
-2. **Data Berita Finansial**: Artikel berita finansial yang dikumpulkan dari berbagai sumber, seperti situs berita ekonomi, untuk melakukan analisis sentimen.
+1. **Historical IHSG Data**: This dataset includes closing prices, trading volume, and other technical data collected from trusted sources like Yahoo Finance or IDX.
+2. **Financial News Data**: Financial news articles collected from various sources, such as economic news websites, for sentiment analysis.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
-- **Python**: Bahasa pemrograman utama untuk analisis data dan implementasi model.
-- **XGBoost**: Algoritma pembelajaran mesin berbasis *gradient boosting* untuk prediksi.
-- **LLM Chatgpt**: Untuk analisis sentimen teks berita.
-- **Pandas dan NumPy**: Untuk manipulasi dan analisis data.
-- **Matplotlib**: Untuk visualisasi data.
-- **Scikit-learn**: Untuk praproses data dan evaluasi model.
+- **Python**: The main programming language for data analysis and model implementation.
+- **XGBoost**: A machine learning algorithm based on *gradient boosting* for prediction.
+- **LLM ChatGPT**: For sentiment analysis of news text.
+- **Pandas and NumPy**: For data manipulation and analysis.
+- **Matplotlib**: For data visualization.
+- **Scikit-learn**: For data preprocessing and model evaluation.
 
-## Hasil dan Visualisasi
+## Results and Visualization
 
-Hasil dari proyek ini meliputi:
+The results of this project include:
 
-- Visualisasi hubungan antara data historis IHSG dan sentimen berita finansial.
-- Evaluasi akurasi model prediksi IHSG menggunakan metrik seperti RMSE, MAE, dan R-squared.
-- Prediksi pergerakan IHSG berdasarkan data terbaru.
+- Visualization of the relationship between historical IHSG data and financial news sentiment.
+- Evaluation of the prediction model’s accuracy using metrics like RMSE, MAE, and R-squared.
+- Forecast of IHSG movements based on the latest data.
 
+## How to Run the Project
 
-## Cara Menjalankan Proyek
-
-1. **Clone repositori ini**:
-Untuk duplikasi proyek, gunakan perintah berikut:
+1. **Clone this repository**:
+To duplicate the project, use the following command:
 ```bash
 git clone https://github.com/Draxterra/Stock-IHSG-Forecast-with-XGBoost-with-Sentiment-Analysis.git
-```
+
 3. **Install dependencies**:
-Untuk menginstal dependencies proyek, gunakan perintah berikut:
+To install the requirements, use the following command:
 ```bash
 pip install -r requirements.txt
 ```
-## Jalankan notebook atau script
+## Run the notebook or script
 
-- Gunakan *Jupyter Notebook* untuk menjalankan file di folder `notebooks`.
-- Atau, jalankan file di folder `src` untuk pipeline end-to-end.
+- Use *Jupyter Notebook* to run files in the `notebooks` folder.
+- Alternatively, run files in the `src` folder for the end-to-end pipeline.
 
 
-## Kontak
-
-Jika ada pertanyaan atau diskusi terkait proyek ini, silakan hubungi saya melalui email: rizkiwirat13@gmail.com.
+## Contact
+If you have any questions or would like to discuss this project, feel free to contact me via email: rizkiwirat13@gmail.com.
 
 
