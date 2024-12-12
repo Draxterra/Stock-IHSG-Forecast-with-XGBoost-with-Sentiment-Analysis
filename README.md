@@ -41,15 +41,13 @@ Hasil dari proyek ini meliputi:
 
 1. **Clone repositori ini**:
 Untuk duplikasi proyek, gunakan perintah berikut:
-   ```bash
-   git clone https://github.com/Draxterra/Stock-IHSG-Forecast-with-XGBoost-with-Sentiment-Analysis.git
-  
+```bash
+git clone https://github.com/Draxterra/Stock-IHSG-Forecast-with-XGBoost-with-Sentiment-Analysis.git
+```
 3. **Install dependencies**:
 Untuk menginstal dependencies proyek, gunakan perintah berikut:
-
-  ```bash
-  pip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
 ```
 ## Jalankan notebook atau script
 
